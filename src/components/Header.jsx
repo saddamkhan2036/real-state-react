@@ -14,7 +14,7 @@ export default function Header() {
     <div className='bg-white border-b mt-1 shadow-sm sticky top-0 z-50'>
       <header className='flex justify-between items-center px-3 max-w-6xl mx-auto'>
         <div>
-            <img src="https://www.freepnglogos.com/uploads/logo-home-png/file-home-logo-17.png" alt="logo" className='h-10 cursor-pointer' onClick={()=> navigate("/")} />
+            <img src="https://www.homemoveis.com.br/wp-content/uploads/2021/02/cropped-home-moveis-logo-1024x522.png" alt="logo" className='h-12 cursor-pointer' onClick={()=> navigate("/")} />
         </div>
         <div>
             <ul className='cursor-pointer flex space-x-10 '>
