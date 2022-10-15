@@ -3,7 +3,6 @@ import {
   collection,
   deleteDoc,
   doc,
-  getDoc,
   getDocs,
   orderBy,
   query,
@@ -16,7 +15,6 @@ import { Link, useNavigate } from "react-router-dom";
 import { toast } from "react-toastify";
 import { FcHome } from "react-icons/fc";
 import ListingItem from "../components/ListingItem";
-import { MdOutlineDelete } from "react-icons/md";
 
 export default function Profile() {
   const auth = getAuth();
