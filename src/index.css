@@ -15,3 +15,13 @@ body{
     color: #a8dadc !important;
 }
 
+/* chrome */
+html::-webkit-scrollbar{
+    display: none;
+}
+
+/* firefox  */
+html{
+    scrollbar-width: none;
+}
+
