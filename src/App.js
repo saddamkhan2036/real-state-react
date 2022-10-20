@@ -20,14 +20,14 @@ function App() {
         <Header />
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="profile" element={<PrivateRoute />}>
+          <Route path="/profile" element={<PrivateRoute />}>
             <Route path="/profile" element={<Profile />} />
           </Route>
           <Route path="/sign-in" element={<SignIn />} />
           <Route path="/sign-up" element={<SignUp />} />
           <Route path="/forgot-password" element={<ForgotPassword />} />
           <Route
-            path="/profile/category/:categoryName/:listingId"
+            path="/category/:categoryName/:listingId"
             element={<Listing />}
           />
           <Route path="/offers" element={<Offers />} />
@@ -39,7 +39,7 @@ function App() {
             <Route path="/edit-listing/:listingId" element={<EditListing />} />
           </Route>
         </Routes>
-      </Router>
+      </Router> 
 
       <ToastContainer
         position="top-center"

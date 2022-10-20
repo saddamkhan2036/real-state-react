@@ -41,11 +41,11 @@ export default function Listing() {
       }
     }
     fetchListing();
-  }, []);
+  }, [params.listingsId]);
   if (loading) {
     return <Spinner />;
   }
-  return (
+  return ( 
     <main>
       <Swiper
         slidesPerView={1}
